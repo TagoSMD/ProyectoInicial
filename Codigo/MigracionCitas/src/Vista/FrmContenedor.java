@@ -62,9 +62,9 @@ public class FrmContenedor extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void GenerarCita(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_GenerarCita
-        FrmCitas frmCitas = new FrmCitas();
-        JDesktopPaneSistema.add(frmCitas);
-        frmCitas.setVisible(true);
+        FrmVerificarBoleta frmVerifBoleta = new FrmVerificarBoleta();
+        JDesktopPaneSistema.add(frmVerifBoleta);
+        frmVerifBoleta.setVisible(true);
     }//GEN-LAST:event_GenerarCita
 
     private void SalirSistema(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_SalirSistema
